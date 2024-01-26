@@ -1,0 +1,57 @@
+.customLogo{
+    font-size: 30px;
+}
+
+/* $primary: #8064A2;
+$secondary: #0096C8; 
+$success:#77933C;
+$denger:#C0504D; */
+
+audio::-webkit-media-controls-panel {
+    background-color: #CCC1DA;
+    border-radius: 0%;
+}
+
+.card-primary{
+    transition: color 0.3s, background-color 0.3s ;
+}
+.card-primary:hover{
+    color: white !important;
+    background-color:#8064A2 ;
+}
+.card-primary:hover .hover{
+color: white !important;
+}
+
+.card-success{
+    transition: color 0.3s, background-color 0.3s ;
+}
+.card-success:hover{
+    color: white !important;
+    background-color:#77933C ;
+}
+.card-success:hover .hover{
+color: white !important;
+}
+
+.card-danger{
+    transition: color 0.3s, background-color 0.3s ;
+}
+.card-danger:hover{
+    color: white !important;
+    background-color:#C0504D ;
+}
+.card-danger:hover .hover{
+color: white !important;
+}
+
+.card-secondary{
+    transition: color 0.3s, background-color 0.3s ;
+}
+.card-secondary:hover{
+    color: white !important;
+    background-color:#0096C8 ;
+}
+.card-secondary:hover .hover{
+color: white !important;
+}
